@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBFD6F315CB0F3C00C77D24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F215CB0F3C00C77D24 /* UIKit.framework */; };
+		2CBFD6F515CB0F3C00C77D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F415CB0F3C00C77D24 /* Foundation.framework */; };
+		2CBFD6F715CB0F3C00C77D24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F615CB0F3C00C77D24 /* CoreGraphics.framework */; };
+		2CBFD6FD15CB0F3C00C77D24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFD6FB15CB0F3C00C77D24 /* InfoPlist.strings */; };
+		2CBFD6FF15CB0F3C00C77D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFD6FE15CB0F3C00C77D24 /* main.m */; };
+		2CBFD70315CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFD70215CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m */; };
+		2CBFD70615CB0F3C00C77D24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFD70415CB0F3C00C77D24 /* MainStoryboard.storyboard */; };
+		2CBFD70915CB0F3C00C77D24 /* ChaoXianCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFD70815CB0F3C00C77D24 /* ChaoXianCardsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CBFD6EE15CB0F3B00C77D24 /* ChaoXianCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaoXianCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBFD6F215CB0F3C00C77D24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CBFD6F415CB0F3C00C77D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CBFD6F615CB0F3C00C77D24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CBFD6FA15CB0F3C00C77D24 /* ChaoXianCards-Info.plist */ = {isa = PBXFileReference; path = "ChaoXianCards-Info.plist"; sourceTree = "<group>"; };
+		2CBFD6FC15CB0F3C00C77D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CBFD6FE15CB0F3C00C77D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CBFD70015CB0F3C00C77D24 /* ChaoXianCards-Prefix.pch */ = {isa = PBXFileReference; path = "ChaoXianCards-Prefix.pch"; sourceTree = "<group>"; };
+		2CBFD70115CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.h */ = {isa = PBXFileReference; path = ChaoXianCardsAppDelegate.h; sourceTree = "<group>"; };
+		2CBFD70215CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaoXianCardsAppDelegate.m; sourceTree = "<group>"; };
+		2CBFD70515CB0F3C00C77D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2CBFD70715CB0F3C00C77D24 /* ChaoXianCardsViewController.h */ = {isa = PBXFileReference; path = ChaoXianCardsViewController.h; sourceTree = "<group>"; };
+		2CBFD70815CB0F3C00C77D24 /* ChaoXianCardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaoXianCardsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBFD6EB15CB0F3B00C77D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFD6F315CB0F3C00C77D24 /* UIKit.framework in Frameworks */,
+				2CBFD6F515CB0F3C00C77D24 /* Foundation.framework in Frameworks */,
+				2CBFD6F715CB0F3C00C77D24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBFD6E315CB0F3A00C77D24 = {
+			isa = PBXGroup;
+			children = (
+				2CBFD6F815CB0F3C00C77D24 /* ChaoXianCards */,
+				2CBFD6F115CB0F3B00C77D24 /* Frameworks */,
+				2CBFD6EF15CB0F3B00C77D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBFD6EF15CB0F3B00C77D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFD6EE15CB0F3B00C77D24 /* ChaoXianCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBFD6F115CB0F3B00C77D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFD6F215CB0F3C00C77D24 /* UIKit.framework */,
+				2CBFD6F415CB0F3C00C77D24 /* Foundation.framework */,
+				2CBFD6F615CB0F3C00C77D24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CBFD6F815CB0F3C00C77D24 /* ChaoXianCards */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFD70115CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.h */,
+				2CBFD70215CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m */,
+				2CBFD70415CB0F3C00C77D24 /* MainStoryboard.storyboard */,
+				2CBFD70715CB0F3C00C77D24 /* ChaoXianCardsViewController.h */,
+				2CBFD70815CB0F3C00C77D24 /* ChaoXianCardsViewController.m */,
+				2CBFD6F915CB0F3C00C77D24 /* Supporting Files */,
+			);
+			path = ChaoXianCards;
+			sourceTree = "<group>";
+		};
+		2CBFD6F915CB0F3C00C77D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFD6FA15CB0F3C00C77D24 /* ChaoXianCards-Info.plist */,
+				2CBFD6FB15CB0F3C00C77D24 /* InfoPlist.strings */,
+				2CBFD6FE15CB0F3C00C77D24 /* main.m */,
+				2CBFD70015CB0F3C00C77D24 /* ChaoXianCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBFD6ED15CB0F3B00C77D24 /* ChaoXianCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBFD70C15CB0F3C00C77D24 /* Build configuration list for PBXNativeTarget "ChaoXianCards" */;
+			buildPhases = (
+				2CBFD6EA15CB0F3B00C77D24 /* Sources */,
+				2CBFD6EB15CB0F3B00C77D24 /* Frameworks */,
+				2CBFD6EC15CB0F3B00C77D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaoXianCards;
+			productName = ChaoXianCards;
+			productReference = 2CBFD6EE15CB0F3B00C77D24 /* ChaoXianCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBFD6E515CB0F3A00C77D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChaoXianCards;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2CBFD6E815CB0F3A00C77D24 /* Build configuration list for PBXProject "ChaoXianCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CBFD6E315CB0F3A00C77D24;
+			productRefGroup = 2CBFD6EF15CB0F3B00C77D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBFD6ED15CB0F3B00C77D24 /* ChaoXianCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBFD6EC15CB0F3B00C77D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFD6FD15CB0F3C00C77D24 /* InfoPlist.strings in Resources */,
+				2CBFD70615CB0F3C00C77D24 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBFD6EA15CB0F3B00C77D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFD6FF15CB0F3C00C77D24 /* main.m in Sources */,
+				2CBFD70315CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m in Sources */,
+				2CBFD70915CB0F3C00C77D24 /* ChaoXianCardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CBFD6FB15CB0F3C00C77D24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBFD6FC15CB0F3C00C77D24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CBFD70415CB0F3C00C77D24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBFD70515CB0F3C00C77D24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBFD70A15CB0F3C00C77D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CBFD70B15CB0F3C00C77D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBFD70D15CB0F3C00C77D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChaoXianCards/ChaoXianCards-Prefix.pch";
+				INFOPLIST_FILE = "ChaoXianCards/ChaoXianCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CBFD70E15CB0F3C00C77D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChaoXianCards/ChaoXianCards-Prefix.pch";
+				INFOPLIST_FILE = "ChaoXianCards/ChaoXianCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBFD6E815CB0F3A00C77D24 /* Build configuration list for PBXProject "ChaoXianCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBFD70A15CB0F3C00C77D24 /* Debug */,
+				2CBFD70B15CB0F3C00C77D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBFD70C15CB0F3C00C77D24 /* Build configuration list for PBXNativeTarget "ChaoXianCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBFD70D15CB0F3C00C77D24 /* Debug */,
+				2CBFD70E15CB0F3C00C77D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBFD6E515CB0F3A00C77D24 /* Project object */;
+}
