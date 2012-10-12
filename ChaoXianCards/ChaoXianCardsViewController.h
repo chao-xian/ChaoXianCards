@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Card.h"
 
 @interface ChaoXianCardsViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *answerDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
 @end
+
+

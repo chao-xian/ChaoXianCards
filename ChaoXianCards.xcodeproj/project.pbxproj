@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5939AC15DD7DEE00E7B8DD /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5939AB15DD7DEE00E7B8DD /* Card.m */; };
 		2CBFD6F315CB0F3C00C77D24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F215CB0F3C00C77D24 /* UIKit.framework */; };
 		2CBFD6F515CB0F3C00C77D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F415CB0F3C00C77D24 /* Foundation.framework */; };
 		2CBFD6F715CB0F3C00C77D24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFD6F615CB0F3C00C77D24 /* CoreGraphics.framework */; };
@@ -18,18 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5939AA15DD7DEE00E7B8DD /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2C5939AB15DD7DEE00E7B8DD /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		2CBFD6EE15CB0F3B00C77D24 /* ChaoXianCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaoXianCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBFD6F215CB0F3C00C77D24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CBFD6F415CB0F3C00C77D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CBFD6F615CB0F3C00C77D24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2CBFD6FA15CB0F3C00C77D24 /* ChaoXianCards-Info.plist */ = {isa = PBXFileReference; path = "ChaoXianCards-Info.plist"; sourceTree = "<group>"; };
+		2CBFD6FA15CB0F3C00C77D24 /* ChaoXianCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChaoXianCards-Info.plist"; sourceTree = "<group>"; };
 		2CBFD6FC15CB0F3C00C77D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CBFD6FE15CB0F3C00C77D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2CBFD70015CB0F3C00C77D24 /* ChaoXianCards-Prefix.pch */ = {isa = PBXFileReference; path = "ChaoXianCards-Prefix.pch"; sourceTree = "<group>"; };
-		2CBFD70115CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.h */ = {isa = PBXFileReference; path = ChaoXianCardsAppDelegate.h; sourceTree = "<group>"; };
+		2CBFD70015CB0F3C00C77D24 /* ChaoXianCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChaoXianCards-Prefix.pch"; sourceTree = "<group>"; };
+		2CBFD70115CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaoXianCardsAppDelegate.h; sourceTree = "<group>"; };
 		2CBFD70215CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaoXianCardsAppDelegate.m; sourceTree = "<group>"; };
 		2CBFD70515CB0F3C00C77D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2CBFD70715CB0F3C00C77D24 /* ChaoXianCardsViewController.h */ = {isa = PBXFileReference; path = ChaoXianCardsViewController.h; sourceTree = "<group>"; };
+		2CBFD70715CB0F3C00C77D24 /* ChaoXianCardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaoXianCardsViewController.h; sourceTree = "<group>"; };
 		2CBFD70815CB0F3C00C77D24 /* ChaoXianCardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaoXianCardsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +80,8 @@
 		2CBFD6F815CB0F3C00C77D24 /* ChaoXianCards */ = {
 			isa = PBXGroup;
 			children = (
+				2C5939AA15DD7DEE00E7B8DD /* Card.h */,
+				2C5939AB15DD7DEE00E7B8DD /* Card.m */,
 				2CBFD70115CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.h */,
 				2CBFD70215CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m */,
 				2CBFD70415CB0F3C00C77D24 /* MainStoryboard.storyboard */,
@@ -164,6 +169,7 @@
 				2CBFD6FF15CB0F3C00C77D24 /* main.m in Sources */,
 				2CBFD70315CB0F3C00C77D24 /* ChaoXianCardsAppDelegate.m in Sources */,
 				2CBFD70915CB0F3C00C77D24 /* ChaoXianCardsViewController.m in Sources */,
+				2C5939AC15DD7DEE00E7B8DD /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				2CBFD70E15CB0F3C00C77D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

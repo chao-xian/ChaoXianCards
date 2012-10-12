@@ -10,4 +10,8 @@
 
 @interface Card : NSObject
 
+@property (nonatomic, strong) NSString *character;
+@property (nonatomic, strong) NSString *translation;
+@property (nonatomic, strong) NSString *pinyin;
+
 @end

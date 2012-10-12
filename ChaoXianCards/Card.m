@@ -8,6 +8,14 @@
 
 #import "Card.h"
 
+@interface Card()
+
+@end
+
 @implementation Card
+
+@synthesize character = _character;
+@synthesize translation = _translation;
+@synthesize pinyin = _pinyin;
 
 @end
